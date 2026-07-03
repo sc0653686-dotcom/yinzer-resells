@@ -31,6 +31,14 @@ header {
   font-size: 22px;
   font-weight: bold;
   color: gold;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  display: block;
 }
 
 nav {
