@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Budget Products | Yinzer Resells</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .logo img {
+      height: 100px !important;
+      width: auto !important;
+    }
+
+    .steals-header {
+      font-size: 72px;
+      font-weight: bold;
+      color: #d4af37;
+      text-align: center;
+      margin: 40px 0 10px 0;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .quality-notice {
+      text-align: center;
+      font-size: 12px;
+      color: #d4af37;
+      font-style: italic;
+      letter-spacing: 0.5px;
+      margin-bottom: 40px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 20px;
+      color: #d4af37;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <div class="logo"><img src="IMG_1099.jpeg" alt="Yinzer Resells logo" /></div>
+
+    <nav id="navMenu">
+      <a href="index.html#shop">Shop</a>
+      <a href="index.html#categories">Categories</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <div class="menu-btn" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <!-- CONTENT -->
+  <section class="section">
+    <a href="index.html" class="back-link">← Back to Home</a>
+
+    <h1 class="steals-header">(STEALS!)</h1>
+    
+    <p class="quality-notice">Products from this section are not the same quality as the other non-budget items</p>
+
+    <div class="grid">
+      <!-- Add your budget product cards here -->
+      <div class="card">
+        <a href="">
+          <div class="img placeholder"></div>
+          <h3>Budget Item 1</h3>
+          <p>$ ---</p>
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="">
+          <div class="img placeholder"></div>
+          <h3>Budget Item 2</h3>
+          <p>$ ---</p>
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="">
+          <div class="img placeholder"></div>
+          <h3>Budget Item 3</h3>
+          <p>$ ---</p>
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="">
+          <div class="img placeholder"></div>
+          <h3>Budget Item 4</h3>
+          <p>$ ---</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 412_resells | Pittsburgh, PA</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
